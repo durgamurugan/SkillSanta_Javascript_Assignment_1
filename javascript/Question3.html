@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./Question3.js"></script>
+    <p>
+        <label>Celsius</label>
+        <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter1(this.value)" onchange="temperatureConverter1(this.value)">
+      </p>
+      <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+      <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter2(this.value)" onchange="temperatureConverter2(this.value)">
+      </p>
+      <p>Celcius: <span id="outputCelcius"></span></p>
+      
+
+</body>
+</html>
